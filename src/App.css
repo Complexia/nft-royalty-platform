@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
@@ -18,14 +24,17 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.leftVerticalLine {
+  padding-left: 0;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +44,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dome {
+  background-color: #282c34;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.Search-bar {
+  padding: 5%;
+}
+
+.jumbotron-transparent {
+  background: rgba(0,0,0,0.2);
+  border-radius: 2rem;
+}
+
+
+.container-one {
+  padding-left: 5%;
+  padding-right: 5%;
 }

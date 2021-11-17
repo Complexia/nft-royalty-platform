@@ -1,0 +1,25 @@
+.brand {
+    color: royalblue;
+    margin-left: 5rem;
+}
+
+.buttons {
+    margin-right: 5rem;
+}
+.navbarButton {
+    margin-right: 1rem;
+    background-color: rebeccapurple;
+    color: grey;
+    border: hidden;
+}
+
+.navbar {
+    border-color: rebeccapurple;
+    border-bottom: rebeccapurple;
+}
+
+.navbar-transparent {
+    background: rgba(0,0,0,0.0);
+    font-size: 1.3rem;
+    
+}
